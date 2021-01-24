@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="3" passed="3" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2021-01-24T13:21:10Z" name="Contiq create opportunity workflow test suite" finished-at="2021-01-24T13:23:41Z" duration-ms="150711">
+    <groups>
+    </groups>
+    <test started-at="2021-01-24T13:21:10Z" name="Login page" finished-at="2021-01-24T13:21:58Z" duration-ms="48673">
+      <class name="com.qa.contiq.tests.LoginPageTest">
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.qa.contiq.tests.LoginPageTest@6c284af]" started-at="2021-01-24T13:21:10Z" name="setup" finished-at="2021-01-24T13:21:50Z" duration-ms="40175" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="clickLoginTest()[pri:0, instance:com.qa.contiq.tests.LoginPageTest@6c284af]" started-at="2021-01-24T13:21:50Z" name="clickLoginTest" finished-at="2021-01-24T13:21:58Z" duration-ms="7730" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clickLoginTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.qa.contiq.tests.LoginPageTest@6c284af]" started-at="2021-01-24T13:21:58Z" name="tearDown" finished-at="2021-01-24T13:21:58Z" duration-ms="723" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.qa.contiq.tests.LoginPageTest -->
+    </test> <!-- Login page -->
+    <test started-at="2021-01-24T13:21:59Z" name="Home page" finished-at="2021-01-24T13:22:37Z" duration-ms="37572">
+      <class name="com.qa.contiq.tests.HomePageTest">
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.qa.contiq.tests.HomePageTest@25be7b63]" started-at="2021-01-24T13:21:59Z" name="setup" finished-at="2021-01-24T13:22:25Z" duration-ms="25812" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method is-config="true" signature="setUpHomePage()[pri:0, instance:com.qa.contiq.tests.HomePageTest@25be7b63]" started-at="2021-01-24T13:22:25Z" name="setUpHomePage" finished-at="2021-01-24T13:22:32Z" duration-ms="7455" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpHomePage -->
+        <test-method signature="doClickNewOpportunityTest()[pri:2, instance:com.qa.contiq.tests.HomePageTest@25be7b63]" started-at="2021-01-24T13:22:32Z" name="doClickNewOpportunityTest" finished-at="2021-01-24T13:22:36Z" duration-ms="3555" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- doClickNewOpportunityTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.qa.contiq.tests.HomePageTest@25be7b63]" started-at="2021-01-24T13:22:36Z" name="tearDown" finished-at="2021-01-24T13:22:37Z" duration-ms="737" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.qa.contiq.tests.HomePageTest -->
+    </test> <!-- Home page -->
+    <test started-at="2021-01-24T13:22:37Z" name="Create opportunity page" finished-at="2021-01-24T13:23:41Z" duration-ms="63563">
+      <class name="com.qa.contiq.tests.CreateOpportunityPageTest">
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.qa.contiq.tests.CreateOpportunityPageTest@72bc6553]" started-at="2021-01-24T13:22:37Z" name="setup" finished-at="2021-01-24T13:23:12Z" duration-ms="34748" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method is-config="true" signature="setUpCreateOppPage()[pri:0, instance:com.qa.contiq.tests.CreateOpportunityPageTest@72bc6553]" started-at="2021-01-24T13:23:12Z" name="setUpCreateOppPage" finished-at="2021-01-24T13:23:23Z" duration-ms="11679" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpCreateOppPage -->
+        <test-method signature="doCreateAndVerifyNewOpportunityTest()[pri:1, instance:com.qa.contiq.tests.CreateOpportunityPageTest@72bc6553]" started-at="2021-01-24T13:23:23Z" name="doCreateAndVerifyNewOpportunityTest" finished-at="2021-01-24T13:23:40Z" duration-ms="16396" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- doCreateAndVerifyNewOpportunityTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.qa.contiq.tests.CreateOpportunityPageTest@72bc6553]" started-at="2021-01-24T13:23:40Z" name="tearDown" finished-at="2021-01-24T13:23:41Z" duration-ms="731" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.qa.contiq.tests.CreateOpportunityPageTest -->
+    </test> <!-- Create opportunity page -->
+  </suite> <!-- Contiq create opportunity workflow test suite -->
+</testng-results>
